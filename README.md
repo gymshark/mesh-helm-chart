@@ -1,5 +1,7 @@
 # Traefik Mesh
 
+_NOTE: This is project is forked from https://github.com/traefik/mesh-helm-chart in order to add the ability to disable PodDisruptionBudgets. It is not intended to be maintained and we hope to migrate back to the main repository once this feature is pulled in._ 
+
 Traefik Mesh is a simple, yet full-featured service mesh. It is container-native and fits as your de-facto service mesh in your Kubernetes cluster.
 It supports the latest Service Mesh Interface specification [SMI](https://smi-spec.io/) that facilitates integration with pre-existing solution.
 
