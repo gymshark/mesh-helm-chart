@@ -24,7 +24,7 @@ spec:
         component: controller
         release: {{ .Release.Name | quote }}
       annotations:
-        prometheus.io/scrape: "true"
+        prometheus.io/scrape: "false"
         prometheus.io/port: "4646"
     spec:
       serviceAccountName: traefik-mesh-controller
